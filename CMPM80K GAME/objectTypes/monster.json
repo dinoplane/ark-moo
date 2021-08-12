@@ -1,0 +1,70 @@
+{
+	"name": "Monster",
+	"plugin-id": "Sprite",
+	"sid": 590029925000958,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Health",
+			"type": "number",
+			"desc": "",
+			"sid": 651053898250757
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 604852848213313
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 145,
+						"height": 100,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4870150,
+						"collisionPoly": {
+							"points": [
+								0.2620689655172414,
+								0.38,
+								0.5,
+								0.23,
+								0.9310344827586207,
+								0.09,
+								0.7172413793103448,
+								0.5,
+								0.9241379310344827,
+								0.89,
+								0.5,
+								0.75,
+								0.2413793103448276,
+								0.64,
+								0.020689655172413793,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 529254566031409,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
