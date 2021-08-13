@@ -46,16 +46,6 @@
 						"x": "Player.X",
 						"y": "Player.Y"
 					}
-				},
-				{
-					"id": "set-target",
-					"objectClass": "Bird",
-					"sid": 821175113503162,
-					"behaviorType": "Orbit",
-					"parameters": {
-						"x": "Player.X",
-						"y": "Player.Y"
-					}
 				}
 			],
 			"sid": 708781700968784
@@ -188,6 +178,16 @@
 					"parameters": {
 						"angle": "random(360)"
 					}
+				},
+				{
+					"id": "set-target",
+					"objectClass": "Bird",
+					"sid": 978887192797391,
+					"behaviorType": "Orbit",
+					"parameters": {
+						"x": "Player.X",
+						"y": "Player.Y"
+					}
 				}
 			],
 			"sid": 860151439275798
@@ -274,12 +274,6 @@
 				}
 			],
 			"sid": 473130011557040
-		},
-		{
-			"eventType": "block",
-			"conditions": [],
-			"actions": [],
-			"sid": 448929121396812
 		},
 		{
 			"eventType": "block",
