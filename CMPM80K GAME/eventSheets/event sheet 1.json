@@ -40,8 +40,18 @@
 				},
 				{
 					"id": "set-angle-toward-position",
-					"objectClass": "Monster",
-					"sid": 709274388870140,
+					"objectClass": "Rat",
+					"sid": 270948769506506,
+					"parameters": {
+						"x": "Player.X",
+						"y": "Player.Y"
+					}
+				},
+				{
+					"id": "set-target",
+					"objectClass": "Bird",
+					"sid": 821175113503162,
+					"behaviorType": "Orbit",
 					"parameters": {
 						"x": "Player.X",
 						"y": "Player.Y"
@@ -210,26 +220,13 @@
 				{
 					"id": "every-x-seconds",
 					"objectClass": "System",
-					"sid": 667007467921663,
+					"sid": 869635891063526,
 					"parameters": {
-						"interval-seconds": "0.1"
+						"interval-seconds": "1"
 					}
 				}
 			],
-			"actions": [
-				{
-					"id": "create-object",
-					"objectClass": "System",
-					"sid": 188197335523794,
-					"parameters": {
-						"object-to-create": "Monster",
-						"layer": "0",
-						"x": "LayoutWidth + 100",
-						"y": "random(LayoutHeight)",
-						"create-hierarchy": false
-					}
-				}
-			],
+			"actions": [],
 			"sid": 336250403656920
 		},
 		{
@@ -252,6 +249,52 @@
 				}
 			],
 			"sid": 761342107505271
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Rat",
+					"sid": 776993223343870,
+					"parameters": {
+						"object": "Bullet"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-speed",
+					"objectClass": "Rat",
+					"sid": 204075503768927,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"speed": "0"
+					}
+				}
+			],
+			"sid": 473130011557040
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 448929121396812
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 825697645683387,
+					"parameters": {
+						"interval-seconds": "1.0"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 318886669904711
 		}
 	],
 	"sid": 761247128156022

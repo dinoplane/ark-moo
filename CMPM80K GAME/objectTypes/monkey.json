@@ -1,0 +1,92 @@
+{
+	"name": "Monkey",
+	"plugin-id": "Sprite",
+	"sid": 775656929186518,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5648332,
+						"collisionPoly": {
+							"points": [
+								0.3,
+								0.17199993896484372,
+								0.724,
+								0.17600006103515628,
+								0.9079997558593749,
+								0.5879998779296872,
+								0.6659998168945311,
+								0.951000015258789,
+								0.3999998779296877,
+								0.9500000305175781,
+								0.2359998779296876,
+								0.5520000610351559
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 859562109511671,
+				"name": "Alive",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7048337,
+						"collisionPoly": {
+							"points": [
+								0.3,
+								0.17199993896484372,
+								0.724,
+								0.17600006103515628,
+								0.9079997558593749,
+								0.5879998779296872,
+								0.6659998168945311,
+								0.951000015258789,
+								0.3999998779296877,
+								0.9500000305175781,
+								0.2359998779296876,
+								0.5520000610351559
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 176156655206334,
+				"name": "Resting",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

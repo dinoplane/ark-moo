@@ -1,0 +1,88 @@
+{
+	"name": "Fish",
+	"plugin-id": "Sprite",
+	"sid": 377057946602368,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2950609,
+						"collisionPoly": {
+							"points": [
+								0.9099999084472657,
+								0.5890000610351561,
+								0.7579999389648437,
+								0.6999999999999997,
+								0.17400000000000015,
+								0.7359999999999998,
+								0.16799981689453136,
+								0.43000003051757835,
+								0.7660000000000001,
+								0.4300000305175781
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 622882707983791,
+				"name": "Alive",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5621976,
+						"collisionPoly": {
+							"points": [
+								0.9099999084472657,
+								0.5890000610351561,
+								0.7579999389648437,
+								0.6999999999999997,
+								0.17400000000000015,
+								0.7359999999999998,
+								0.16799981689453136,
+								0.43000003051757835,
+								0.7660000000000001,
+								0.4300000305175781
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 936579481215446,
+				"name": "Resting",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

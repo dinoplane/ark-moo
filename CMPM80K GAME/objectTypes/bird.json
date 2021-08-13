@@ -1,0 +1,99 @@
+{
+	"name": "Bird",
+	"plugin-id": "Sprite",
+	"sid": 978165976330128,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 727309473239946
+		},
+		{
+			"behaviorId": "Orbit",
+			"name": "Orbit",
+			"sid": 678630635415478
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3847339,
+						"collisionPoly": {
+							"points": [
+								0.4919998779296878,
+								0.9039999999999999,
+								0.2320001220703125,
+								0.6279999999999997,
+								0.24799987792968714,
+								0.42799987792968786,
+								0.4759996337890625,
+								0.147999984741211,
+								0.808,
+								0.5359999694824218
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 908451511466873,
+				"name": "Alive",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4371850,
+						"collisionPoly": {
+							"points": [
+								0.4919998779296878,
+								0.9039999999999999,
+								0.2320001220703125,
+								0.6279999999999997,
+								0.24799987792968714,
+								0.42799987792968786,
+								0.4759996337890625,
+								0.147999984741211,
+								0.808,
+								0.5359999694824218
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 222298149832887,
+				"name": "Resting",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

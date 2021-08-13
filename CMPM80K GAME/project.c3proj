@@ -93,6 +93,14 @@
 			"author": "Scirra",
 			"version": "r251.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Orbit",
+			"name": "Orbit",
+			"author": "Scirra",
+			"version": "r251.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "z1ucpra589l",
@@ -105,7 +113,11 @@
 			"Player",
 			"Mouse",
 			"Keyboard",
-			"Score"
+			"Score",
+			"Rat",
+			"Bird",
+			"Fish",
+			"Monkey"
 		],
 		"subfolders": []
 	},
